@@ -15,7 +15,7 @@ class Todo extends Component {
     );
   }
 }
-
+// 타입 체크
 Todo.propTypes = {
   onClick: PropTypes.func.isRequired,
   completed: PropTypes.bool.isRequired,
